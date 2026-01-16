@@ -3,6 +3,7 @@
 
 # Ignore Gradle build output directory
 build
-docs/
+# init_docs/
+test_data/
 # Ignore bin directory
 bin/

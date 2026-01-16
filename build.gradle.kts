@@ -16,7 +16,8 @@ subprojects {
 
     java {
         toolchain {
-            languageVersion = JavaLanguageVersion.of(21)
+            languageVersion = JavaLanguageVersion.of(25)
+            vendor = JvmVendorSpec.ADOPTIUM
         }
     }
 
@@ -30,5 +31,6 @@ subprojects {
     }
     dependencies {
         testImplementation("org.junit.jupiter:junit-jupiter:5.12.1")
+        implementation("org.projectlombok:lombok:1.18.42")
     }
 }

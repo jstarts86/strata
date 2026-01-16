@@ -2,7 +2,7 @@
 
 ## 1. Executive Summary
 
-Code Grapher 2.0 is a high-performance, scalable tool for indexing and analyzing source code repositories. Unlike traditional in-memory static analysis tools, Code Grapher 2.0 adopts a **Database-Centric ELT (Extract-Load-Transform)** architecture. By leveraging modern Java 21 features (Virtual Threads, Records) and a dedicated Graph Database (FalkorDB), it achieves constant memory footprint and enterprise-grade scalability, capable of handling monorepos with millions of lines of code.
+Code Grapher 2.0 is a high-performance, scalable tool for indexing and analyzing source code repositories. Unlike traditional in-memory static analysis tools, Code Grapher 2.0 adopts a **Database-Centric ELT (Extract-Load-Transform)** architecture. By leveraging modern Java 25 features (Virtual Threads, Records) and a dedicated Graph Database (FalkorDB), it achieves constant memory footprint and enterprise-grade scalability, capable of handling monorepos with millions of lines of code.
 
 ## 2. Core Philosophy
 
